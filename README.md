@@ -1,6 +1,6 @@
-# NPS Survey V1 | :smiley: | :neutral_face: | :weary:
+# Heroes API
 
-Make surveys and receive feedback e-mails with NPS result.
+API built for APP Masters like a requirement to selective process
 
 ## :pushpin: Features
 
@@ -10,7 +10,7 @@ Make surveys and receive feedback e-mails with NPS result.
 
 * Get All Heroes
 
-## :wrench: Build with 
+## :wrench: Built in
 
 * NodeJs
 
