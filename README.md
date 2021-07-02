@@ -4,37 +4,34 @@ Make surveys and receive feedback e-mails with NPS result.
 
 ## :pushpin: Features
 
-* Customer register :busts_in_silhouette:
+* Search Hero by Slug
 
-* Feedback e-mail :email:
+* Search Hero by Any Attribute
+
+* Get All Heroes
 
 ## :wrench: Build with 
-
-* SQLite
 
 * NodeJs
 
 * TypesScript
 
-* Swagger
-
-* Jest
-
-* Handlebears
-
-* TypeOrm
-
 ### Get Started 
 
 ``` javascript
   git clone https://github.com/FelippeBritto/nps_survey.git
-  cd nps_survey
+  cd heroes_api
   yarn or npm install
 ``` 
 ### Running
 
 ``` js 
-  yarn start or npm run start
-  or
-  yarn test or npm run test
+  yarn dev or npm run dev
+
+//Then access localhost:3000
+  localhost:3000/ //Default rote
+  localhost:3000/allHeroes //Get an array with all heroes
+  localhost:3000/heroes/{slug} //Search a hero by slug
+  localhost:3000/search/{any} //Search a hero by any info
+
 ```
