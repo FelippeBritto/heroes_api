@@ -32,6 +32,7 @@ API built for APP Masters like a requirement to selective process
   localhost:3000/ //Default rote
   localhost:3000/allHeroes //Get an array with all heroes
   localhost:3000/heroes/{slug} //Search a hero by slug
-  localhost:3000/search/{any} //Search a hero by any info
+  localhost:3000/search?q={something} //Search a hero by any info
 
+## Also avaliable at https://brito-api-heroes.herokuapp.com/ {routes above}
 ```
