@@ -10,6 +10,6 @@ const heroesController = new HeroesController();
 router.get('/', appController.default);
 router.get('/allHeroes', heroesController.getAll);
 router.get('/heroes/:slug', heroesController.getBySlug);
-router.get('/search/:q', heroesController.searchByQuery);
+router.get('/search', heroesController.searchByQuery);
 
 export { router };
