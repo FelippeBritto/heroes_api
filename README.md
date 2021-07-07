@@ -19,7 +19,7 @@ API built for APP Masters like a requirement to selective process
 ### Get Started 
 
 ``` javascript
-  git clone https://github.com/FelippeBritto/nps_survey.git
+  git clone https://github.com/FelippeBritto/heroes_api.git
   cd heroes_api
   yarn or npm install
 ``` 
@@ -34,5 +34,5 @@ API built for APP Masters like a requirement to selective process
   localhost:3000/heroes/{slug} //Search a hero by slug
   localhost:3000/search?q={something} //Search a hero by any info
 
-## Also avaliable at https://brito-api-heroes.herokuapp.com/ {routes above}
+## Also avaliable at [Heroku](https://brito-api-heroes.herokuapp.com/) {routes above}
 ```
